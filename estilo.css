@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-title{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.header__nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+
+}
+
+.header__nav--active{
+     background-color: #cbe300;
+}
+
+.header__nav a:hover{
+    text-decoration: underline; 
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex: 1;
+    padding: 30px;
+    background-color: #1f261f;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-plan__title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+.pricing-plan p{
+    margin-top: 0;
+    }
+
+    .pricing-plan__price{
+        font-size: 33px;
+}
+
+.pricing-plan__features{
+    margin:0 0 35px ;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+.pricing-plan__features li::marker{
+    color:#cbe300
+}
+
+.pricing-plan__cta{
+    text-decoration: none;
+    color: black;
+    background-color: #cbe300;
+    padding-left: 16px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px 10px;
+
+}
+
+.pricing-plan__cta:hover{
+    text-decoration: underline;
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: white;
+    
+}
+
+
